@@ -1,0 +1,18 @@
+#heading{ text-align: center; margin-top: 30px; margin-bottom: 40px;}
+	.title-text{ position: relative; top: -1px; right: -1px; float: right; border: 1px solid; width: 30%; height: 10%; text-align: center; font-weight: bold; padding: 5px;}
+	#first{ background-color: #CC9B9A; }
+	#second{ background-color: #B34E48; }
+	#third{ background-color: #E2D29F; }
+	
+	@media (min-width: 992px)
+	{.boxes{ position: relative; background-color: #999999; border: 1px solid; float: left; margin left: auto; margin-right: auto; height: 185px; width: 31.3%; box-sizing: border-box; margin: 8px;}
+	.content{clear: both; padding: 10px; box-sizing: border-box; font-size: 13px;}}
+
+	@media (min-width: 768px) and (max-width: 991px)
+	{.boxes{ position: relative; background-color: #999999; border: 1px solid; float: left; margin left: auto; margin-right: auto; height: 185px; width: 45%; box-sizing: border-box; margin: 18px;}
+	.content{clear: both; padding: 10px; box-sizing: border-box; font-size: 13px;}
+	#b3{ width: 94%; height: 185px;} #c3{ padding: 20px; }}
+
+	@media (max-width: 767px)
+	{.boxes{ position: relative; right: 10px; background-color: #999999; border: 1px solid; float: left; margin left: auto; margin-right: auto; height: 185px; width: 95.5%; box-sizing: border-box; margin: 18px;}
+	.content{clear: both; padding: 10px; box-sizing: border-box; font-size: 13px;}}
