@@ -1,0 +1,84 @@
+body {
+  font-size: 16px;
+  background-color: #C1C1DE;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #3C4497;
+  border-radius: 0;
+  border: 0;
+  /*height: 100px;*/
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Proxima Nova';
+  color: #99A1F3;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list a {
+  background-color: #6269A7;
+  border: 1px #AEAFD2 solid;
+  color: white;
+  text-align: center;
+  height: 100;
+}
+#nav-list a:hover {
+  background: #99A1F3;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #99A1F3;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+#heading{
+  font-weight: bold;
+  font-size: 1.8em;
+  margin: 0px auto 10px; 
+}
+.main-heading {
+  margin: 5px auto 5px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#Chicken, #Shushi, #Beef {
+  background-color: #D3D1D2;
+  border: 1px solid;
+  padding: 10px;
+  margin: 5px;
+}
+
+
+
+
